@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEFINE_FLEX_ARRAY	flex_array.h	60;"	d
+EXPORT_SYMBOL	flex_array.h	6;"	d
+FLEX_ARRAY_BASE_BYTES_LEFT	flex_array.h	45;"	d
+FLEX_ARRAY_BASE_SIZE	flex_array.h	16;"	d
+FLEX_ARRAY_ELEMENTS_PER_PART	flex_array.h	53;"	d
+FLEX_ARRAY_FREE	flex_array.h	7;"	d
+FLEX_ARRAY_NR_BASE_PTRS	flex_array.h	49;"	d
+FLEX_ARRAY_PART_SIZE	flex_array.h	15;"	d
+PAGE_SHIFT	flex_array.h	12;"	d
+PAGE_SIZE	flex_array.h	13;"	d
+_FLEX_ARRAY_H	flex_array.h	2;"	d
+_LINUX_RECIPROCAL_DIV_H	reciprocal_div.h	2;"	d
+__GFP_ZERO	flex_array.h	8;"	d
+__fa_get_part	flex_array.c	/^__fa_get_part(struct flex_array *fa, int part_nr, gfp_t flags)$/;"	f	file:
+do_div	reciprocal_div.c	5;"	d	file:
+element_size	flex_array.h	/^			int element_size;$/;"	m	struct:flex_array::__anon1::__anon2
+elements	flex_array.c	/^	char elements[FLEX_ARRAY_PART_SIZE];$/;"	m	struct:flex_array_part	file:
+elements_fit_in_base	flex_array.c	/^static inline int elements_fit_in_base(struct flex_array *fa)$/;"	f	file:
+elems_per_part	flex_array.h	/^			int elems_per_part;$/;"	m	struct:flex_array::__anon1::__anon2
+fa_element_to_part_nr	flex_array.c	/^static int fa_element_to_part_nr(struct flex_array *fa,$/;"	f	file:
+flex_array	flex_array.h	/^struct flex_array {$/;"	s
+flex_array_alloc	flex_array.c	/^EXPORT_SYMBOL(flex_array_alloc);$/;"	v
+flex_array_alloc	flex_array.c	/^struct flex_array *flex_array_alloc(int element_size, unsigned int total,$/;"	f
+flex_array_clear	flex_array.c	/^EXPORT_SYMBOL(flex_array_clear);$/;"	v
+flex_array_clear	flex_array.c	/^int flex_array_clear(struct flex_array *fa, unsigned int element_nr)$/;"	f
+flex_array_free	flex_array.c	/^EXPORT_SYMBOL(flex_array_free);$/;"	v
+flex_array_free	flex_array.c	/^void flex_array_free(struct flex_array *fa)$/;"	f
+flex_array_free_parts	flex_array.c	/^EXPORT_SYMBOL(flex_array_free_parts);$/;"	v
+flex_array_free_parts	flex_array.c	/^void flex_array_free_parts(struct flex_array *fa)$/;"	f
+flex_array_get	flex_array.c	/^EXPORT_SYMBOL(flex_array_get);$/;"	v
+flex_array_get	flex_array.c	/^void *flex_array_get(struct flex_array *fa, unsigned int element_nr)$/;"	f
+flex_array_get_ptr	flex_array.c	/^EXPORT_SYMBOL(flex_array_get_ptr);$/;"	v
+flex_array_get_ptr	flex_array.c	/^void *flex_array_get_ptr(struct flex_array *fa, unsigned int element_nr)$/;"	f
+flex_array_part	flex_array.c	/^struct flex_array_part {$/;"	s	file:
+flex_array_prealloc	flex_array.c	/^EXPORT_SYMBOL(flex_array_prealloc);$/;"	v
+flex_array_prealloc	flex_array.c	/^int flex_array_prealloc(struct flex_array *fa, unsigned int start,$/;"	f
+flex_array_put	flex_array.c	/^EXPORT_SYMBOL(flex_array_put);$/;"	v
+flex_array_put	flex_array.c	/^int flex_array_put(struct flex_array *fa, unsigned int element_nr, void *src,$/;"	f
+flex_array_put_ptr	flex_array.h	83;"	d
+flex_array_shrink	flex_array.c	/^EXPORT_SYMBOL(flex_array_shrink);$/;"	v
+flex_array_shrink	flex_array.c	/^int flex_array_shrink(struct flex_array *fa)$/;"	f
+fls	reciprocal_div.c	/^static int fls(int x)$/;"	f	file:
+gfp_t	flex_array.h	/^typedef unsigned  gfp_t;$/;"	t
+index_inside_part	flex_array.c	/^static unsigned int index_inside_part(struct flex_array *fa,$/;"	f	file:
+m	reciprocal_div.h	/^		u32 m;$/;"	m	struct:reciprocal_value
+main	flex_test.c	/^int main()$/;"	f
+max	reciprocal_div.c	3;"	d	file:
+min	reciprocal_div.c	4;"	d	file:
+offsetof	flex_array.h	9;"	d
+padding	flex_array.h	/^		char padding[FLEX_ARRAY_BASE_SIZE];$/;"	m	union:flex_array::__anon1
+part_is_free	flex_array.c	/^static int part_is_free(struct flex_array_part *part)$/;"	f	file:
+parts	flex_array.h	/^			struct flex_array_part *parts[];$/;"	m	struct:flex_array::__anon1::__anon2	typeref:struct:flex_array::__anon1::__anon2::flex_array_part
+reciprocal_divide	reciprocal_div.h	/^static inline u32 reciprocal_divide(u32 a, struct reciprocal_value R)$/;"	f
+reciprocal_elems	flex_array.h	/^			struct reciprocal_value reciprocal_elems;$/;"	m	struct:flex_array::__anon1::__anon2	typeref:struct:flex_array::__anon1::__anon2::reciprocal_value
+reciprocal_value	reciprocal_div.c	/^struct reciprocal_value reciprocal_value(u32 d)$/;"	f
+reciprocal_value	reciprocal_div.h	/^struct reciprocal_value {$/;"	s
+sh1	reciprocal_div.h	/^			u8 sh1, sh2;$/;"	m	struct:reciprocal_value
+sh2	reciprocal_div.h	/^			u8 sh1, sh2;$/;"	m	struct:reciprocal_value
+total_nr_elements	flex_array.h	/^			int total_nr_elements;$/;"	m	struct:flex_array::__anon1::__anon2
+u16	reciprocal_div.h	/^typedef unsigned short u16;$/;"	t
+u32	reciprocal_div.h	/^typedef unsigned int u32;$/;"	t
+u64	reciprocal_div.h	/^typedef unsigned long u64;$/;"	t
+u8	reciprocal_div.h	/^typedef unsigned char u8;$/;"	t
+uint32_t	reciprocal_div.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	reciprocal_div.h	/^typedef unsigned long uint64_t;$/;"	t

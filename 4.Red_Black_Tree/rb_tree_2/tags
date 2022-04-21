@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EXPORT_SYMBOL	rbtree.c	25;"	d	file:
+INFO	rbtree_test.c	/^} INFO;$/;"	t	typeref:struct:__anon2	file:
+RB_BLACK	rbtree_augmented.h	87;"	d
+RB_CLEAR_NODE	rbtree.h	62;"	d
+RB_DECLARE_CALLBACKS	rbtree_augmented.h	52;"	d
+RB_EMPTY_NODE	rbtree.h	60;"	d
+RB_EMPTY_ROOT	rbtree.h	57;"	d
+RB_RED	rbtree_augmented.h	86;"	d
+RB_ROOT	rbtree.h	50;"	d
+SAWON	rbtree_test.c	/^} SAWON;$/;"	t	typeref:struct:__anon1	file:
+_LINUX_RBTREE_AUGMENTED_H	rbtree_augmented.h	25;"	d
+_LINUX_RBTREE_H	rbtree.h	30;"	d
+____rb_erase_color	rbtree.c	/^____rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f	file:
+__display	rbtree_test.c	/^void __display( struct rb_node *temp, $/;"	f
+__rb_change_child	rbtree_augmented.h	/^__rb_change_child(struct rb_node *old, struct rb_node *new,$/;"	f
+__rb_color	rbtree_augmented.h	91;"	d
+__rb_erase_augmented	rbtree_augmented.h	/^__rb_erase_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+__rb_erase_color	rbtree.c	/^EXPORT_SYMBOL(__rb_erase_color);$/;"	v
+__rb_erase_color	rbtree.c	/^void __rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f
+__rb_insert	rbtree.c	/^__rb_insert(struct rb_node *node, struct rb_root *root,$/;"	f	file:
+__rb_insert_augmented	rbtree.c	/^EXPORT_SYMBOL(__rb_insert_augmented);$/;"	v
+__rb_insert_augmented	rbtree.c	/^void __rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+__rb_is_black	rbtree_augmented.h	92;"	d
+__rb_is_red	rbtree_augmented.h	93;"	d
+__rb_parent	rbtree_augmented.h	89;"	d
+__rb_parent_color	rbtree.h	/^	unsigned long  __rb_parent_color;$/;"	m	struct:rb_node
+__rb_rotate_set_parents	rbtree.c	/^__rb_rotate_set_parents(struct rb_node *old, struct rb_node *new,$/;"	f	file:
+color	rbtree_test.c	/^	int color;$/;"	m	struct:__anon2	file:
+container_of	rbtree.h	52;"	d
+copy	rbtree_augmented.h	/^	void (*copy)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks
+display	rbtree_test.c	/^void display( struct rb_root *root )$/;"	f
+dummy_callbacks	rbtree.c	/^static const struct rb_augment_callbacks dummy_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks	file:
+dummy_copy	rbtree.c	/^static inline void dummy_copy(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:
+dummy_propagate	rbtree.c	/^static inline void dummy_propagate(struct rb_node *node, struct rb_node *stop) {}$/;"	f	file:
+dummy_rotate	rbtree.c	/^static inline void dummy_rotate(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:
+false	rbtree.h	34;"	d
+main	rbtree_test.c	/^int main()$/;"	f
+my_insert	rbtree_test.c	/^int my_insert(struct rb_root *root, SAWON *s)$/;"	f
+node	rbtree_test.c	/^	struct rb_node node;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:
+offsetof	rbtree.h	51;"	d
+propagate	rbtree_augmented.h	/^	void (*propagate)(struct rb_node *node, struct rb_node *stop);$/;"	m	struct:rb_augment_callbacks
+rb_augment_callbacks	rbtree_augmented.h	/^struct rb_augment_callbacks {$/;"	s
+rb_color	rbtree_augmented.h	94;"	d
+rb_entry	rbtree.h	55;"	d
+rb_erase	rbtree.c	/^EXPORT_SYMBOL(rb_erase);$/;"	v
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_erase_augmented	rbtree_augmented.h	/^rb_erase_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+rb_first	rbtree.c	/^EXPORT_SYMBOL(rb_first);$/;"	v
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_insert_augmented	rbtree_augmented.h	/^rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+rb_insert_color	rbtree.c	/^EXPORT_SYMBOL(rb_insert_color);$/;"	v
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	rbtree_augmented.h	96;"	d
+rb_is_red	rbtree_augmented.h	95;"	d
+rb_last	rbtree.c	/^EXPORT_SYMBOL(rb_last);$/;"	v
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f
+rb_next	rbtree.c	/^EXPORT_SYMBOL(rb_next);$/;"	v
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	rbtree.h	/^struct rb_node {$/;"	s
+rb_parent	rbtree.h	48;"	d
+rb_prev	rbtree.c	/^EXPORT_SYMBOL(rb_prev);$/;"	v
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_red_parent	rbtree.c	/^static inline struct rb_node *rb_red_parent(struct rb_node *red)$/;"	f	file:
+rb_replace_node	rbtree.c	/^EXPORT_SYMBOL(rb_replace_node);$/;"	v
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	rbtree.h	/^struct rb_root {$/;"	s
+rb_set_black	rbtree.c	/^static inline void rb_set_black(struct rb_node *rb)$/;"	f	file:
+rb_set_parent	rbtree_augmented.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_parent_color	rbtree_augmented.h	/^static inline void rb_set_parent_color(struct rb_node *rb,$/;"	f
+rotate	rbtree_augmented.h	/^	void (*rotate)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon1	file:
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon2	file:
+true	rbtree.h	33;"	d

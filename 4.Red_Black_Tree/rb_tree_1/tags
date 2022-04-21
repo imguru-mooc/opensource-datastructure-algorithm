@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INFO	rbtree_test.c	/^} INFO;$/;"	t	typeref:struct:__anon2	file:
+RB_BLACK	rbtree.h	6;"	d
+RB_RED	rbtree.h	5;"	d
+SAWON	rbtree_test.c	/^} SAWON;$/;"	t	typeref:struct:__anon1	file:
+__display	rbtree_test.c	/^void __display( struct rb_node *temp, $/;"	f
+__rb_erase_color	rbtree.c	/^void __rb_erase_color(struct rb_node * node, struct rb_node * parent,$/;"	f
+__rb_rotate_left	rbtree.c	/^void __rb_rotate_left(struct rb_node * node, struct rb_root * root)$/;"	f
+__rb_rotate_right	rbtree.c	/^void __rb_rotate_right(struct rb_node * node, struct rb_root * root)$/;"	f
+color	rbtree_test.c	/^	int color;$/;"	m	struct:__anon2	file:
+display	rbtree_test.c	/^void display( struct rb_root *root )$/;"	f
+main	rbtree_test.c	/^int main()$/;"	f
+my_insert	rbtree_test.c	/^int my_insert(struct rb_root *root, SAWON *s)$/;"	f
+node	rbtree_test.c	/^	struct rb_node node;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:
+rb_color	rbtree.h	/^	int rb_color;$/;"	m	struct:rb_node
+rb_entry	rbtree.h	16;"	d
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node * node, struct rb_root * root)$/;"	f
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node * node, struct rb_root * root)$/;"	f
+rb_left	rbtree.h	/^	struct rb_node * rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	rbtree.c	/^void rb_link_node(struct rb_node * node, struct rb_node * parent, struct rb_node ** rb_link)$/;"	f
+rb_node	rbtree.h	/^	struct rb_node * rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	rbtree.h	/^struct rb_node$/;"	s
+rb_parent	rbtree.h	/^	struct rb_node * rb_parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_right	rbtree.h	/^	struct rb_node * rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	rbtree.h	/^struct rb_root$/;"	s
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon1	file:
+sid	rbtree_test.c	/^	int sid;$/;"	m	struct:__anon2	file:
